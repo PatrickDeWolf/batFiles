@@ -12,7 +12,7 @@ set "folder=%script_dir%prive"
 if "%script_dir:~-1%"=="\" set "folder=%script_dir%prive"  REM Corrigeer extra backslash indien nodig
 
 
-set "password=0002"  REM Wijzig hier het wachtwoord
+set "password=1234"  REM Wijzig hier het wachtwoord
 
 :: Controleer of de map verborgen is
 if exist "%folder%" (
